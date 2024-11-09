@@ -4,6 +4,26 @@
     text-align: center;
   }
 
+  #login {
+    background-color:rgb(114, 114, 114);
+  }
+
+  #menu {
+    background-color: rgb(92, 90, 90);
+  }
+
+  #experiencias {
+    background-color: rgb(71, 71, 71);
+  }
+
+  #dadospessoais {
+    background-color: rgb(39, 39, 39);
+  }
+
+  #formacao {
+    background-color: rgb(8, 8, 8);
+  }
+
   h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
@@ -43,8 +63,14 @@
     width: 90%;
   }
 
-  #botoes{
+  #botaoLimpar{
     width: 40%;
+    color: red;
+  }
+
+  #botaoEntrar{
+    width: 40%;
+    color: blue;
   }
 
   
