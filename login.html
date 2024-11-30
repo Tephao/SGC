@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="scripts.js"></script>
   <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8" />
     <title>Sistema de Gestão de Curriculos</title>
 </head>
 <body id="login">
-  <div>
+  <div id="div-login">
 <h1>SGC - LOGIN</h1>
   <hr>
   <form action="menu.html">
 
-    <label for="">Usuário</label><br>
-    <input type="text" required><br><br>
+    <label id='label-usuario'>Usuário</label><br>
+    <input type="text" required id="input-usuario"><br><br>
 
-    <label for="">Senha</label><br>
-    <input type="password" required><br><br>
+    <label id='label-senha'>Senha</label><br>
+    <input type="password" required id="input-senha"><br><br>
     <hr>
     <input type="reset" id= "botaoLimpar" value="Limpar">
     <input type="submit" id= "botaoEntrar" value="Entrar"><br><br>
-        
+    
+  </form>
+  <br>
+    <button onclick="acessibilidade()">Acessibilidade</button>
   </div>
 </body>
 </html>

@@ -43,7 +43,7 @@
     width: 90%;
   }
 
-  input:hover {
+  input:hover, button:hover {
     font-size: 30px;
   }
 
